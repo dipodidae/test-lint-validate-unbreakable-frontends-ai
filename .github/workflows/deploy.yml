@@ -29,7 +29,7 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - run: pnpm build -- --base /test-lint-validate-unbreakable-frontends-ai/
+      - run: pnpm exec slidev build --base /test-lint-validate-unbreakable-frontends-ai/
 
       - uses: actions/upload-pages-artifact@v3
         with:
