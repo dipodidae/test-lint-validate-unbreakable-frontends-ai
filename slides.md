@@ -240,23 +240,9 @@ We moved the test suite into the `vue3-migration` branch.
 layout: two-cols
 ---
 
-# What We Avoided
-
-::right::
-
-### <span class="text-green-400">With Tests</span>
-
-<v-clicks>
-
-- Immediate feedback
-- Controlled fixes
-- Predictable outcomes
-- Calm releases
-- Confident teams
-
-</v-clicks>
-
 ::default::
+
+# What We Avoided
 
 ### <span class="text-red-400">Without Tests</span>
 
@@ -273,6 +259,20 @@ layout: two-cols
 <div v-click class="mt-6 text-lg font-bold text-teal-400">
   We didn't just save time. We avoided chaos.
 </div>
+
+::right::
+
+### <span class="text-green-400">With Tests</span>
+
+<v-clicks>
+
+- Immediate feedback
+- Controlled fixes
+- Predictable outcomes
+- Calm releases
+- Confident teams
+
+</v-clicks>
 
 <!--
 [4:30–5:00] Quick impact slide. This is for the non-engineers in the room — product, support, leadership. The contrast is visceral. "We didn't just save time. We avoided chaos." — that's the line a manager will repeat in their next planning meeting.
@@ -640,10 +640,20 @@ layout: center
 class: text-center
 ---
 
-<div class="text-3xl font-bold mb-8">Thank you.</div>
+<div class="text-3xl font-bold mb-6">Thank you.</div>
 
 <div class="text-lg opacity-60 mb-6">
   Test. Lint. Validate.
+</div>
+
+<div class="flex items-center justify-center gap-8 mt-4">
+  <QRCode url="https://dipodidae.github.io/test-lint-validate-unbreakable-frontends-ai/" :size="160" />
+  <div class="text-left">
+    <div class="text-sm opacity-60 mb-2">Slides available at</div>
+    <a href="https://dipodidae.github.io/test-lint-validate-unbreakable-frontends-ai/" target="_blank" class="text-teal-400 text-sm hover:underline">
+      dipodidae.github.io/test-lint-validate-unbreakable-frontends-ai
+    </a>
+  </div>
 </div>
 
 <!--
